@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
  */
 public class SouqScraper extends AbstractScraper {
 
+    //TODO: insert  url to test but do not forget "?page=%d" !!!
     private static final String EXAMPLE_CATEGORY_URL = "http://uae.souq.com/ae-en/dental-care/l/?page=%d";
 
     private static final String URL = "http://uae.souq.com/ae-en/shop-all-categories/c/";
